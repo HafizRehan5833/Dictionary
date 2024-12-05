@@ -5,9 +5,10 @@ dictionary_user={'name': 'Rehan', 'age': 19, 'grade': 'A',"roll number":245289,"
 while True:
     
     
-    user_input=input("Enter the key which you want: ").lower()
+    user_input=input("Enter the key which you want and q for quit : ").lower()
     if user_input == "q":
         quit()
     else:    
         func=accept_key(dictionary_user,user_input)
         print(func)
+        

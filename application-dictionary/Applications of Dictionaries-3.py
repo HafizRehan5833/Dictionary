@@ -2,12 +2,4 @@
 
 
 squares_dictionary={num:num**2 for num in range(0,6)}
-#for num in range(1,6):
- #   print({num:num**2})
 print(squares_dictionary)
-
-
-
-for num in range(1,6):
-
-    {print(num,num**2)}

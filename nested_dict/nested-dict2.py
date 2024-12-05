@@ -23,8 +23,7 @@ if user_input in person:
     elif user_input != "address":
         calling_city=person[user_input]
         print(calling_city)
-    else:
-        print("Not in dictionary..")
+   
 
 else:
     print("Invalid")
