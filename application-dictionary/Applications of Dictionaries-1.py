@@ -1,10 +1,10 @@
 #Use a dictionary to count the occurrences of each word in the string "hello world hello python world".
 
 
-user_input=input("Enter the string: ")
+user_input=input("Enter the at least three words string: ")
 
-word_list=user_input.split()
 #split is use to break bigger strings or a line into several small strings
+word_list=user_input.split()
 
 
 word_count={}
@@ -16,3 +16,7 @@ for word in word_list:
 
 print(word_count)
 
+
+user_input_ascii=input("Enter the name: ")
+a=int(user_input_ascii)
+print(a)
