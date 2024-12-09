@@ -15,8 +15,3 @@ for word in word_list:
 
 
 print(word_count)
-
-
-user_input_ascii=input("Enter the name: ")
-a=int(user_input_ascii)
-print(a)
